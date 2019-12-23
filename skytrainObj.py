@@ -19,15 +19,20 @@ class Station:
     def getNextStation(self):
         self.__prevStation = None
 
+class Train_Line:
+    def __init__(self, name):
+        self.__firstStation
+        self.__lastStation
+
 # Object for Skytrain Train Cars
 class Train:
-    def __init__(self, name, type):
+    def __init__(self, name, Traintype):
         # Initializing Variables
         self.__name = name
-        self.__type = type
+        self.__type = Traintype
     
-    def setTrainType(self, type):
-        self.__type = type;
+    def setTrainType(self, Traintype):
+        self.__type = Traintype;
 
-    def getTrainType(self, type):
+    def getTrainType(self):
         return self.__type
