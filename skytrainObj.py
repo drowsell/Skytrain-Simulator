@@ -21,8 +21,9 @@ class Station:
 
 class Train_Line:
     def __init__(self, name):
-        self.__firstStation
-        self.__lastStation
+        self.__name = name
+        self.__firstStation = None
+        self.__lastStation = None
 
 # Object for Skytrain Train Cars
 class Train:
